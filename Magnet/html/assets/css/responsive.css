@@ -1,0 +1,111 @@
+    /*tablet*/
+    
+    @media all and (min-width: 768px) {
+        .navigation {
+            display: block;
+            position: static;
+        }
+        .mob-menu {
+            display: none;
+        }
+        .hide {
+            display: none;
+        }
+        .nav-menu {
+            display: flex;
+            flex-direction: row;
+            width: 435px;
+            justify-content: space-between;
+            font-size: 15px;
+            text-transform: uppercase;
+            background-color: transparent;
+        }
+        .nav-menu li a {
+            font-size: 1.5rem;
+        }
+        .header {
+            background-color: transparent;
+            padding: 0;
+            position: absolute;
+            left: 0;
+            right: 0;
+        }
+        .header .container {
+            justify-content: space-between;
+            align-items: center;
+            padding: 10px;
+            background-color: rgba(0, 0, 0, 0.5);
+        }
+        .banner .btn {
+            position: static;
+        }
+        .banner .container h1 {
+            text-align: center;
+        }
+        .banner {
+            background: url("/html/assets/images/desktop-background.png") no-repeat;
+            background-size: cover;
+            z-index: -1;
+        }
+        .banner .container {
+            justify-content: center;
+            align-items: center;
+            max-width: 545px;
+        }
+        .features-image h5 {
+            color: black;
+            font-size: 15px;
+            margin: 10px -28px;
+            font-weight: 600;
+        }
+        .button-wrapper .btn {
+            position: static;
+        }
+        .contact-menu {
+            flex-direction: row;
+            display: flex;
+            justify-content: center;
+        }
+        .contact-menu li {
+            padding: 0 55px;
+        }
+        .back-wrapper p {
+            font-size: 15px;
+            width: 758px;
+            padding: 19px;
+            line-height: 1.5;
+            margin: 20px auto;
+        }
+        .form-control {
+            font-size: 2rem;
+            margin: 13px;
+            width: calc(50% - 13px);
+        }
+        .form-control:nth-child(odd) {
+            margin-left: 0;
+        }
+        .form-area .btn {
+            position: static;
+            display: block;
+        }
+        .partner-wrapper img {
+            max-width: 893px
+        }
+        .nav-menu li {
+            border-bottom: transparent;
+        }
+    }
+    /* tablet view landscape */
+    
+    @media all and (min-width: 1024px) {
+        .logo {
+            width: 200px;
+        }
+        .nav-menu a {
+            font-size: 15px;
+            text-transform: uppercase;
+        }
+    }
+    /* tablet view */
+    
+    @media all and (min-width: 1280px)
