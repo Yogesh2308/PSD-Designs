@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/html/assets/css/global.css">
+</head>
+<style>
+    #box {
+        display: flex;
+    }
+    
+    .box-1 {
+        width: 200px;
+        height: 200px;
+        background-color: red;
+    }
+    
+    .box-2 {
+        width: 200px;
+        height: 200px;
+        background-color: blue;
+    }
+    
+    .box-3 {
+        width: 200px;
+        height: 200px;
+        background-color: green;
+    }
+    
+    .box-4 {
+        width: 200px;
+        height: 200px;
+        background-color: yellow;
+    }
+</style>
+
+<body>
+    <div id="box">
+        <div class="box-1"></div>
+        <div class="box-2"></div>
+        <div class="box-3"></div>
+        <div class="box-4"></div>
+    </div>
+    <table cellpadding="20px">
+        <tr>
+            <th>Time</th>
+            <th>Weekdays (Mon - Fri)</th>
+            <th>Weekends (Sat / Sun)</th>
+        </tr>
+        <tr>
+            <td>18:00 - 00:00</td>
+            <td>£395.00 plus VAT </td>
+            <td>£495.00 plus VAT</td>
+        </tr>
+        <tr>
+            <td>00:00 - 06:00 </td>
+            <td>£495.00 plus VAT </td>
+            <td>£595.00 plus VAT</td>
+        </tr>
+        <tr>
+            <td>06:00 - 12:00 </td>
+            <td>£295.00 plus VAT </td>
+            <td>£395.00 plus VAT</td>
+        </tr>
+        <tr>
+            <td>12:00 - 18:00 </td>
+            <td>£295.00 plus VAT </td>
+            <td>£495.00 plus VAT</td>
+        </tr>
+    </table>
+    <div>
+        <div class="accordion">
+            <h4>Overview</h4>
+            <div class="overview-content">
+                <ul class="overview">
+                    <li>About</li>
+                    <li>Careers</li>
+                    <li>The Team</li>
+                    <li>Contact</li>
+                </ul>
+            </div>
+            <h4>Services</h4>
+            <div class="overview-content">
+                <ul class="overview">
+                    <li>Flat roofing</li>
+                    <li>Asphalt roofing</li>
+                    <li>Commercial roofing</li>
+                    <li>Roof surveys</li>
+                    <li>Drone & aerial surveys</li>
+                </ul>
+            </div>
+            <h4>Legal</h4>
+            <div class="overview-content">
+                <ul class="overview">
+                    <li>Terms of service</li>
+                    <li>Privacy policy</li>
+                    <li></li>
+                    <li></li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script>
+        $(function() {
+            $(".accordion").accordion();
+        });
+    </script>
+</body>
+
+</html>

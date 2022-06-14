@@ -1,0 +1,459 @@
+                /* header */
+                
+                .header {
+                    background-color: #034779;
+                    padding: 25px 0;
+                }
+                
+                .header .container {
+                    justify-content: space-around;
+                    align-items: center;
+                }
+                
+                .logo {
+                    width: 200px;
+                }
+                
+                .nav-menu a {
+                    position: relative;
+                    color: #18272F;
+                    font-size: 1.3rem;
+                }
+                
+                .navigation {
+                    display: none;
+                    position: absolute;
+                    top: 18%;
+                    left: 0.6%;
+                    width: 100%;
+                    /* z-index: 0; */
+                }
+                
+                .nav-menu {
+                    display: flex;
+                    padding: 0 30px;
+                    text-align: center;
+                    flex-direction: column;
+                    background-color: #034779;
+                }
+                
+                .nav-menu li a::after {
+                    position: absolute;
+                    background: #0CB0DD;
+                    content: "";
+                    bottom: -6px;
+                    left: 11px;
+                    width: 72%;
+                    height: 3px;
+                    transform-origin: right;
+                    border-radius: 5px;
+                    transform: scaleX(0);
+                    transition: transform .3s ease-in-out;
+                }
+                
+                .nav-menu li a:hover::after {
+                    transform-origin: left;
+                    transform: scaleX(1);
+                }
+                
+                .logo img {
+                    width: 100%;
+                    display: block;
+                }
+                
+                .mob-menu {
+                    width: 35px;
+                }
+                
+                .mob-bar {
+                    display: block;
+                    width: 90%;
+                    height: 3px;
+                    margin-bottom: 7px;
+                    background-color: #fff;
+                }
+                
+                .banner {
+                    background: url('/html/assets/bg/mob-bg.png') no-repeat center;
+                    background-size: cover;
+                }
+                
+                .banner .container {
+                    flex-direction: column;
+                    align-items: center;
+                    padding-top: 100px;
+                }
+                
+                .para-end {
+                    display: none;
+                }
+                
+                .banner h1 {
+                    font-size: 38px;
+                }
+                
+                .banner p {
+                    color: white;
+                }
+                
+                .navigation {
+                    display: none;
+                }
+                
+                .desktop-logo {
+                    display: none;
+                }
+                /* .btn {
+                    display: none;
+                } */
+                /* banner */
+                
+                .para-end {
+                    display: none;
+                }
+                
+                .map {
+                    display: none;
+                }
+                
+                .box {
+                    display: none;
+                }
+                
+                .map-area {
+                    display: none;
+                }
+                
+                .call-b {
+                    display: none;
+                }
+                /* content */
+                
+                .content .container {
+                    flex-direction: column;
+                    align-items: center;
+                    padding-top: 35px
+                }
+                
+                .content .review {
+                    align-items: center;
+                    display: flex;
+                    justify-content: center;
+                    flex-direction: row;
+                    padding-top: 10px;
+                    padding-bottom: 20px;
+                }
+                
+                .review img {
+                    width: 50%;
+                }
+                
+                .content .review h4 {
+                    color: black;
+                    padding-top: 10px;
+                }
+                
+                .content h4 {
+                    color: black;
+                    margin: 0px 10px;
+                    padding-bottom: 10px;
+                }
+                
+                .header .btn {
+                    display: none;
+                }
+                
+                .review img {
+                    width: 150px;
+                }
+                
+                .content .btn {
+                    border-radius: 0;
+                    display: flex;
+                    padding-top: 8px;
+                    width: 90%;
+                    background-color: #0CB0DD;
+                    text-transform: none;
+                    justify-content: center;
+                    align-items: center;
+                    height: 50px;
+                    padding-left: 15px;
+                }
+                
+                .icons {
+                    background: url('/html/assets/images/icon/phone_call.png') no-repeat left;
+                    padding: 27px;
+                }
+                
+                .button .btn {
+                    background-color: #034779;
+                    margin: 10px auto;
+                    font-weight: 600;
+                    font-size: 20px;
+                    padding-top: 2px;
+                    padding-left: 0;
+                }
+                /* cell-out */
+                
+                .rate .container {
+                    justify-content: center;
+                    padding-top: 30px;
+                }
+                
+                .rate h1 {
+                    color: #034779;
+                    font-size: 38px;
+                    text-align: center;
+                }
+                
+                .time {
+                    display: flex;
+                    /* align-items: center; */
+                    padding: 6px;
+                    border-bottom: 1px solid;
+                    /* flex-wrap: wrap; */
+                    /* border: 2px solid; */
+                    margin: auto;
+                    /* align-content: center; */
+                    /* justify-content: center; */
+                    width: 310px;
+                }
+                
+                .time:last-child {
+                    border: none;
+                }
+                
+                .time h4 {
+                    margin: 10px auto;
+                    color: black;
+                }
+                
+                .box h5 {
+                    display: none;
+                }
+                
+                .call-table {
+                    font-size: 1.6rem;
+                    overflow: auto;
+                    text-align: left;
+                    max-width: 729px;
+                    width: 100%;
+                }
+                
+                th,
+                td {
+                    padding: 15px;
+                    font-size: 14px;
+                }
+                
+                table {
+                    width: 152%;
+                }
+                
+                th {
+                    font-weight: bold;
+                }
+                
+                .cell-out h3 {
+                    color: #034779;
+                }
+                
+                .cell-out .container {
+                    position: relative;
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                    max-width: 1180px;
+                    padding: 0 10px;
+                    width: 100%;
+                    margin: 0 auto;
+                }
+                
+                .mob-hide {
+                    display: none;
+                }
+                /* holder-wrap */
+                
+                .holder-1 {
+                    padding: 40px 5px;
+                }
+                
+                .holder-wrap {
+                    display: flex;
+                    padding: 20px 0;
+                    width: 100%;
+                    justify-content: center;
+                }
+                
+                .holder-2 {
+                    padding: 5px;
+                }
+                /* benefits */
+                
+                .benefits .container {
+                    flex-direction: column;
+                    align-items: center;
+                }
+                
+                .benefits-image {
+                    display: flex;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                
+                .benefits-image h3 {
+                    color: black;
+                    font-size: 2.5rem;
+                    margin: 10px;
+                }
+                
+                .benefits-image p {
+                    padding-bottom: 20px;
+                }
+                
+                .benefits h2 {
+                    padding: 25px 0;
+                    color: #034779;
+                    text-transform: none;
+                }
+                /* .clients */
+                
+                .clients .container {
+                    display: block;
+                    max-width: 1180px;
+                    padding: 0 10px;
+                    width: 100%;
+                    margin: 0 auto;
+                    padding-bottom: 100px;
+                }
+                
+                .clients h2 {
+                    text-align: center;
+                }
+                
+                .client-menu {
+                    display: flex;
+                    flex-wrap: wrap;
+                    width: 280px;
+                    justify-content: center;
+                    align-items: center;
+                    margin: 0 auto;
+                }
+                
+                .clients h2 {
+                    padding: 24px 0;
+                    color: #034779;
+                }
+                
+                .client-menu li {
+                    margin: 1px 4px 5px 5px;
+                }
+                /* contact-us-mob-hide */
+                
+                .contact-us-mob-hide {
+                    display: none;
+                }
+                /* footer */
+                
+                .footer {
+                    background: url('/html/assets/bg/footer.png') no-repeat center;
+                    background-size: cover;
+                    padding: 15px;
+                }
+                
+                .accordion h4 {
+                    border: 1px solid rgb(184, 181, 181);
+                    background-color: transparent;
+                    font-family: 'Yanone Kaffeesatz', sans-serif;
+                    margin: 0;
+                    position: relative;
+                    cursor: pointer;
+                    font-size: 18px;
+                    padding: 5px;
+                    color: white;
+                }
+                
+                .accordion h4::before {
+                    content: url('/html/assets/images/icon/down-arrow.png');
+                    position: absolute;
+                    top: 50%;
+                    right: 20px;
+                    transform: translateY(-50%);
+                }
+                
+                .accordion h4#ui-id-1.ui-state-active::before {
+                    content: url('/html/assets/images/icon/up-arrow.png');
+                }
+                
+                .accordion h4#ui-id-3.ui-state-active::before {
+                    content: url('/html/assets/images/icon/up-arrow.png');
+                }
+                
+                .accordion h4#ui-id-5.ui-state-active::before {
+                    content: url('/html/assets/images/icon/up-arrow.png');
+                }
+                
+                .overview li {
+                    margin: 10px;
+                    font-family: 'Yanone Kaffeesatz', sans-serif;
+                    font-size: 20px;
+                    color: white;
+                }
+                
+                .overview {
+                    padding: 10px 15px;
+                }
+                
+                .footer-content .container {
+                    justify-content: center;
+                    padding: 30px 0;
+                    flex-direction: column;
+                    align-items: center;
+                }
+                
+                .footer-contact img {
+                    padding-bottom: 12px;
+                }
+                
+                .footer-contact p {
+                    color: white;
+                    padding: 10px 0;
+                    line-height: 1.5;
+                    width: 288px;
+                    font-size: 15px;
+                    text-align: center;
+                }
+                
+                .social {
+                    padding: 20px 0;
+                    text-align: center;
+                    display: block;
+                }
+                
+                .social-contact {
+                    display: block;
+                }
+                
+                .social-contact-desktop {
+                    display: none;
+                }
+                
+                .copyright p {
+                    color: white;
+                    padding: 10px 0;
+                    font-size: 17px;
+                }
+                
+                .map-image {
+                    display: none;
+                }
+                
+                .desktop-hide {}
+                
+                .extra {
+                    display: none;
+                }
+                
+                #ui-id-2 {
+                    height: 200px;
+                }

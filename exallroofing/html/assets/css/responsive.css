@@ -1,0 +1,439 @@
+/* tablet */
+
+@media all and (min-width: 768px) {
+    /* header */
+    .navigation {
+        position: static;
+        display: block;
+    }
+    .mob-menu {
+        display: none;
+    }
+    .phone {
+        display: none;
+    }
+    .nav-menu {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        background-color: transparent;
+    }
+    .nav-menu a {
+        color: black;
+        font-size: 45%;
+        margin: 0 15px;
+        text-align: center;
+        font-weight: 600;
+        display: flex;
+    }
+    .header {
+        background-size: cover;
+        padding-top: 0;
+        background: transparent;
+        z-index: 0;
+        position: absolute;
+        left: 0;
+        right: 0;
+        top: 0px;
+    }
+    .header .container {
+        padding-top: 25px;
+        order: 1;
+        justify-content: space-between;
+    }
+    .desktop-logo {
+        display: block;
+    }
+    .logo {
+        display: none;
+    }
+    .header .btn {
+        display: block;
+        margin: 0;
+        border-radius: 0;
+        width: 150px;
+        height: 35px;
+        padding-top: 10px;
+        font-size: 12px;
+        background-color: #034779;
+        text-transform: none;
+    }
+    /* banner */
+    .banner {
+        background: url('/html/assets/bg/bg.png') no-repeat center;
+        background-size: cover;
+        position: relative;
+        overflow: hidden;
+        z-index: -1;
+    }
+    /* .banner::after {
+        content: "";
+        position: absolute;
+        height: 753px;
+        width: 62%;
+        z-index: -1;
+        background-color: #F3FBFD;
+        border-radius: 50%;
+        bottom: 67px;
+        overflow: hidden;
+        left: 44%;
+    } */
+    .banner .container {
+        flex-direction: row-reverse;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 50px;
+        padding-bottom: 60px;
+        order: 2;
+    }
+    .banner p {
+        color: black;
+        font-size: 9px;
+        width: 230px;
+        padding-top: 15px;
+        margin: 0 auto;
+    }
+    .banner h3 {
+        color: green;
+        font-size: 9px;
+        padding-top: 29px;
+    }
+    .para-end {
+        display: block;
+    }
+    .box {
+        background: url('/html/assets/images/box.png') no-repeat center;
+        background-size: cover;
+        display: block;
+        padding-bottom: 50px;
+        z-index: 1;
+        position: relative;
+    }
+    .map img {
+        width: 75%;
+    }
+    .box h3 {
+        margin: 0;
+    }
+    /* h3:nth-of-type(1) {
+        margin: 0;
+    }
+    h3:nth-of-type(2) {
+        margin: 0;
+    } */
+    .banner-text p {
+        font-size: 45%;
+        width: 373px;
+        margin: 0;
+        text-align: left;
+    }
+    .banner-text h1 {
+        color: #034779;
+        text-align: left;
+        width: 290px;
+    }
+    .banner-text {
+        padding-top: 185px;
+    }
+    .call-b .btn {
+        display: block;
+        width: 100%;
+        height: 35px;
+        font-size: 30px;
+        margin-bottom: 35px;
+        color: #034779;
+        font-weight: 600;
+        padding-bottom: -42px;
+        background: transparent;
+        position: relative;
+    }
+    .call-b .btn::after {
+        position: absolute;
+        background: #0CB0DD;
+        content: "";
+        bottom: 29px;
+        z-index: 0;
+        left: 7%;
+        top: 28px;
+        width: 87%;
+        height: 5px;
+    }
+    .call-b {
+        display: block;
+    }
+    /* .call-b a {
+        color: blue;
+        padding-left: 20px;
+    } */
+    .call-b h4 {
+        text-align: right;
+        padding-right: 25px;
+        margin: 0;
+        font-weight: 600;
+        color: #034779;
+        font-weight: 600;
+    }
+    .map-image {
+        display: block;
+    }
+    .map-image img {
+        position: absolute;
+        top: 173px;
+        right: 150px;
+        width: 32%;
+    }
+    .freephone p {
+        margin: 20px 0;
+        padding-left: 15px;
+    }
+    /* content */
+    .content {
+        display: none;
+        order: 3;
+    }
+    .mob-hide {
+        display: block;
+    }
+    /* cell-out */
+    .cell-out .container {
+        order: 4;
+    }
+    .cell-out {
+        padding-top: 100px;
+    }
+    /* call */
+    .call {
+        display: flex;
+        flex-direction: row-reverse;
+    }
+    .mob-hide p {
+        font-size: 14px;
+        text-align: left;
+        width: 486px;
+        padding-bottom: 20px;
+    }
+    /* holder-wrap */
+    .holder-wrap {
+        width: 100%;
+        flex-direction: row-reverse;
+    }
+    .holder-1 {
+        padding: 0 30px;
+    }
+    .holder-2 {
+        padding: 40px 0px;
+    }
+    .blueline {
+        background-color: #0CB0DD;
+        width: 4px;
+        height: 45px;
+        position: absolute;
+    }
+    .action-icon {
+        background: url('/html/assets/images/icon/actions-smile.png') no-repeat 0 0;
+        background-size: 19px 19px;
+        width: 0;
+        height: 0;
+    }
+    /* benefits */
+    .benefits .container {
+        order: 5;
+    }
+    .benefits-wrapp {
+        display: flex;
+        flex-direction: row;
+    }
+    .benefits-image h3 {
+        font-size: 13px;
+        width: 127px;
+    }
+    .benefits-image p {
+        margin: 10px 0;
+        font-size: 11px;
+        width: 165px;
+    }
+    /* contact-us-mob-hide */
+    .contact-us-mob-hide {
+        display: block;
+    }
+    .contact-us-mob-hide .container {
+        flex-direction: column;
+        align-items: center;
+        padding-top: 30px;
+        position: relative;
+        max-width: 955px;
+        order: 6;
+    }
+    .form-control {
+        font-size: 1.5rem;
+        margin: 10px;
+        width: calc(50% - 15px);
+    }
+    .form-control:nth-child(odd) {
+        margin-left: 0;
+    }
+    .form-control:nth-child(even) {
+        margin-right: 0;
+    }
+    .form-control {
+        background-color: white;
+        border: 1px solid;
+    }
+    .long-message {
+        font-size: 1.4rem;
+        background-color: white;
+        border: 1px solid;
+        padding-bottom: 100px;
+    }
+    .contact-us-mob-hide h2 {
+        padding: 20px 0;
+        color: #034779;
+    }
+    .form-area h5 {
+        font-size: 1.2rem;
+        padding: 10px 0;
+        text-align: left;
+        font: normal;
+    }
+    .contact-us-mob-hide .container .btn {
+        border-radius: 0;
+        height: 45px;
+        bottom: 0;
+        background-color: #0CB0DD;
+        right: 21px;
+        font-size: 10px;
+        width: 150px;
+        position: absolute;
+    }
+    /* client */
+    .client-menu li {
+        width: 13%;
+    }
+    .client-menu {
+        flex-direction: row;
+        width: 100%;
+    }
+    /* footer */
+    .accordion {
+        display: none;
+    }
+    .desktop-hide {
+        display: block;
+    }
+    th,
+    td {
+        padding: 10px;
+        font-size: 14px;
+        border-bottom: 1px solid;
+    }
+    table {
+        width: 100%;
+    }
+    th {
+        font-weight: bold;
+    }
+    .extra {
+        display: block;
+        text-align: left;
+    }
+    .extra h5 {
+        font-size: 1.5rem;
+        color: white;
+        margin: 15px 0;
+        text-align: left;
+    }
+    .footer-content .container {
+        flex-direction: row;
+        justify-content: space-between;
+    }
+    .social {
+        display: none;
+    }
+    .social-contact {
+        display: none;
+    }
+    .social-contact-desktop {
+        display: block;
+    }
+    .extra h4 {
+        color: white;
+        font-weight: 700;
+    }
+}
+
+
+/* tablet view landscape */
+
+@media all and (min-width: 1024px) {
+    /* header */
+    .nav-menu a {
+        color: black;
+        font-size: 50%;
+        margin: 0 12px;
+        padding: 0 12px;
+        text-align: center;
+        font-weight: 600;
+        display: flex;
+    }
+    /* benefits */
+    .benefits-wrapp {
+        display: flex;
+        justify-content: space-evenly;
+        flex-direction: row;
+        /* border: 2px solid; */
+        width: 100%;
+    }
+    .benefits-image h3 {
+        font-size: 18px;
+        width: 166px;
+    }
+    .benefits-image p {
+        margin: 10px 0;
+        font-size: 14px;
+        width: 195px;
+    }
+    /* map */
+    .map-image img {
+        position: absolute;
+        top: 189px;
+        right: 190px;
+        width: 30%;
+    }
+}
+
+
+/* tablet view */
+
+@media all and (min-width: 1280px) {
+    /* map */
+    .map-image img {
+        position: absolute;
+        top: 140px;
+        right: 300px;
+        width: 28%;
+    }
+}
+
+
+/* laptop view */
+
+@media all and (min-width: 1400px) {
+    .map-image img {
+        position: absolute;
+        top: 142px;
+        right: 410px;
+        width: 24%;
+    }
+}
+
+
+/* desktop view */
+
+@media all and (min-width: 1500px) {
+    .map-image img {
+        position: absolute;
+        top: 130px;
+        right: 405px;
+        width: 25%;
+    }
+}
