@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/html/assets/css/global.css">
+    <link rel="stylesheet" href="/html/assets/css/style.css">
+    <link rel="stylesheet" href="/html/assets/css/responsive.css">
+    <link rel="stylesheet" href="/html/assets/css/slick.css">
+</head>
+<div class="reviewed">
+    <div class="slider-for">
+        <img src="/html/assets/bg/images/bottle.png" alt="">
+        <img src="/html/assets/bg/images/hand.png" alt="">
+        <img src="/html/assets/bg/images/hand.png" alt="">
+    </div>
+    <div class="slider-nav">
+        <img src="/html/assets/bg/images/bottle.png" alt="">
+        <img src="/html/assets/bg/images/hand.png" alt="">
+        <img src="/html/assets/bg/images/hand.png" alt="">
+    </div>
+</div>
+
+<body>
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="/html/assets/js/custom.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.1/jquery-ui.js"></script>
+    <script src="/html/assets/js/slick.min.js"></script>
+    <script>
+        $('.slider-for').slick({
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: false,
+            fade: true,
+            asNavFor: '.slider-nav'
+        });
+        $('.slider-nav').slick({
+            slidesToShow: 3,
+            slidesToScroll: 1,
+            asNavFor: '.slider-for',
+            dots: true,
+            centerMode: true,
+            focusOnSelect: true
+        });
+    </script>
+</body>
+
+</html>

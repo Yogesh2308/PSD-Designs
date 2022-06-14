@@ -1,0 +1,828 @@
+/* header */
+
+.header .container {
+    justify-content: space-between;
+    padding: 20px;
+    align-items: center;
+}
+
+.sprite {
+    background: url('/html/assets/images/icon/sprite.png') no-repeat 0 0;
+    background-size: 200px 200px;
+    width: 0;
+    height: 0;
+}
+
+.icon-bag {
+    background: url('/html/assets/images/icon/sprite.png') no-repeat -4px -4px;
+    background-size: 200px 200px;
+    width: 28px;
+    height: 14px;
+}
+
+.icon-user {
+    background: url('/html/assets/images/icon/sprite.png') no-repeat -4px -21px;
+    background-size: 200px 200px;
+    width: 28px;
+    height: 13px;
+}
+
+.header .container h6 {
+    font-size: 10px;
+    padding: 5px 11px;
+}
+
+
+/* .dropbtn li a::after {
+    background: url('/html/assets/bg/images/arrows.png');
+} */
+
+.logo {
+    width: 150px;
+}
+
+.logo img {
+    width: 100%;
+    display: block;
+}
+
+.mob-menu {
+    width: 42px;
+}
+
+.mob-bar {
+    display: block;
+    width: 90%;
+    height: 2.4px;
+    margin-bottom: 7px;
+    background-color: grey;
+}
+
+.container h6 {
+    font-size: 10px;
+}
+
+.navigation {
+    display: none;
+}
+
+.product-image {
+    position: relative;
+}
+
+.slick-next.slick-arrow {
+    text-indent: -2000px;
+    position: absolute;
+    padding: 13px;
+    height: 50px;
+    width: 50px;
+    z-index: 1;
+    bottom: 3px;
+    left: 30%;
+    background: url('/html/assets/bg/images/arrows.png') center center no-repeat;
+    box-shadow: 2px 2px 20px lightgrey;
+}
+
+.slick-prev.slick-arrow {
+    text-indent: -999px;
+    overflow: hidden;
+    position: absolute;
+    padding: 13px;
+    border: none;
+    height: 50px;
+    width: 50px;
+    bottom: 3px;
+    z-index: 1;
+    left: 14%;
+    background: url('/html/assets/bg/images/arrow-left.png') center center no-repeat;
+    box-shadow: 2px 2px 20px lightgrey;
+}
+
+.banner {
+    position: relative;
+}
+
+.banner .container {
+    flex-direction: column;
+}
+
+.banner-text {
+    font-size: 10px;
+    padding: 8px 55px;
+}
+
+.liked {
+    color: gold;
+    margin: 0 3px 0 0;
+}
+
+.icon-filled-like {
+    background: url('/html/assets/bg/images/filled-like.png') center no-repeat;
+}
+
+.like-icon {
+    background: url('/html/assets/bg/images/like-icon.png') center no-repeat;
+}
+
+
+/* banner */
+
+.banner .container h2 {
+    color: rgb(55, 55, 244);
+    padding-top: 20px;
+    text-transform: none;
+    font-family: gilroy sans-serif;
+    font-size: 2.8rem;
+    font-weight: 300;
+}
+
+.banner .container h4 {
+    color: black;
+}
+
+.banner .container p {
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 600;
+    line-height: 1.6;
+    color: grey;
+}
+
+.banner .container h6 {
+    padding: 20px 0;
+}
+
+.counter {
+    margin-top: 20px;
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+
+.qty {
+    border-radius: 30%;
+    width: 48%;
+    background-color: white;
+    text-align: center;
+    border: 1px solid;
+}
+
+.button-counter .counter {
+    position: absolute;
+}
+
+.cart-qty-plus {
+    position: absolute;
+    bottom: -7px;
+    padding: 13px;
+    right: 81%;
+    text-indent: -999px;
+    overflow: hidden;
+    background: url('/html/assets/bg/images/left.png') center center no-repeat;
+}
+
+.cart-qty-minus {
+    position: absolute;
+    bottom: -7px;
+    right: 47%;
+    overflow: hidden;
+    padding: 13px;
+    text-indent: -999px;
+    background: url('/html/assets/bg/images/right.png') center center no-repeat;
+}
+
+.counter-amount h5 {
+    font-size: 1.5rem;
+    margin-left: 122px;
+}
+
+.grounded h3 {
+    color: rgb(73, 73, 73);
+    font-size: 1.4rem;
+    padding: 15px 0;
+    font-weight: 600;
+    margin: 0;
+}
+
+.grounded h5 {
+    font-size: 1.2rem;
+    margin: 3px 0;
+    color: grey;
+    font-weight: 600;
+}
+
+.serving {
+    color: blue;
+}
+
+.button {
+    display: flex;
+    align-items: center;
+}
+
+.btn {
+    margin: 0;
+    border-radius: 7px;
+    width: 135px;
+    height: 45px;
+    background-color: blue;
+    margin: 20px 6px;
+    margin-right: 30px;
+    color: white;
+}
+
+.counter-amount {
+    display: flex;
+    justify-content: space-around;
+    width: 240px;
+}
+
+.counter-amount h5 {
+    padding-left: 99px;
+}
+
+.hint img {
+    width: 56px;
+}
+
+.exp h5 {
+    font-size: 10px;
+}
+
+.experience h5 {
+    font-size: 10px;
+}
+
+.experience {
+    display: flex;
+    width: 300px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+/* page */
+
+.page .container {
+    max-width: 1000px;
+    padding: 0 15px;
+    width: 100%;
+    margin: 0 auto;
+    display: block;
+}
+
+.page {
+    padding: 20px 0;
+}
+
+#pages li a {
+    color: #7f7f7f;
+    font-size: 1.2rem;
+    border-radius: 10%;
+    padding: 14px;
+    background-color: #f4f4f4;
+}
+
+.page-content {
+    display: flex;
+    border: 1px solid #f4f4f4;
+    background-color: #f4f4f4;
+    height: 47px;
+    border-radius: 10%;
+    justify-content: space-around;
+}
+
+#pages a {
+    position: relative;
+}
+
+.box-style {
+    border: 1px solid;
+    padding: 10px 0;
+}
+
+.accordion h4 {
+    color: blue;
+    background-color: lightgrey;
+    padding: 10px;
+    font-size: 1.1rem;
+    margin: 0;
+}
+
+.accordion p {
+    text-align: left;
+    font-size: 1.3rem;
+    padding: 10px;
+    background-color: whitesmoke;
+    height: 160px;
+}
+
+.skin-therapy h2 {
+    text-align: left;
+    font-size: 2.6rem;
+    text-transform: none;
+    padding: 30px 12px;
+}
+
+.slick-prev.slick-arrow.left-arrow {
+    position: absolute;
+    top: 41px;
+    /* border: 1px solid; */
+    left: 38%;
+    /* background: white; */
+    height: 27px;
+}
+
+.slick-next.slick-arrow.right-arrow {
+    top: 42px;
+    height: 27px;
+    /* background: red; */
+    right: 22%;
+}
+
+.bottle-image img {
+    height: auto;
+    padding: 68px 32px;
+    width: 50%;
+}
+
+.bottle-image {
+    position: relative;
+}
+
+.pages li a {
+    padding: 15px 7px;
+}
+
+#tabs-2 h1 {
+    color: black;
+    text-align: left;
+    font-weight: 100;
+    padding: 40px 0;
+    font-size: 3rem;
+    font-family: gilroy light sans-serif;
+}
+
+
+/* related */
+
+
+/* .related .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+.related h1 {
+    color: black;
+    font-size: 2.7rem;
+    font-weight: 100;
+    font-family: gilroy light sans-serif;
+}
+
+.related-content h5 {
+    font-size: 1.6rem;
+    padding: 15px 0;
+    margin: 0;
+    color: black;
+    font-family: gilroy light sans-serif;
+}
+
+.related-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* border: 1px solid; */
+    width: 278px;
+    padding: 12px 0;
+}
+
+.related-content h4 {
+    font-size: 1.9rem;
+    color: blue;
+    font-weight: 600;
+}
+
+.related h5 {
+    font-size: 1.6rem;
+    padding: 14px 7px;
+    text-align: left;
+}
+
+.hand {
+    display: none;
+}
+
+.accod {
+    display: flex;
+    flex-direction: column;
+}
+
+
+/* related-product */
+
+.slick-next.slick-arrow.forward-arrow {
+    top: 50%;
+    text-indent: -2000px;
+    padding: 0;
+    height: 22px;
+    width: 24px;
+    border-radius: 50%;
+    left: 95%;
+    position: absolute;
+    background: url('/html/assets/bg/images/right.png') center center no-repeat white;
+}
+
+.slick-prev.slick-arrow.backword-arrow {
+    background-color: red;
+    position: absolute;
+    top: 50%;
+    text-indent: -999px;
+    left: -3%;
+    border-radius: 50%;
+    height: 20px;
+    background: url('/html/assets/bg/images/left.png') center center no-repeat white;
+}
+
+.relatedd {
+    display: flex;
+    flex-flow: wrap;
+    justify-content: center;
+}
+
+.related .container {
+    display: block;
+}
+
+
+/* hempathyliving */
+
+.hempathyliving .container {
+    flex-direction: column;
+    align-items: center;
+}
+
+.hempathyliving h1 {
+    color: black;
+    font-size: 3rem;
+    font-weight: 100;
+    font-family: gilroy light sans-serif;
+}
+
+.living-image-wrap {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    justify-content: center;
+    padding-bottom: 60px;
+}
+
+.living-content .container {
+    justify-content: space-between;
+}
+
+.living-image img {
+    width: 141px;
+}
+
+.living-content {
+    background-color: #f7f7f7;
+    align-items: center;
+    text-align: center;
+    padding: 10px 0;
+}
+
+.living-content h3 {
+    color: black;
+    font-size: 1.5rem;
+    padding: 0 10px;
+    text-align: center;
+    align-items: center;
+    width: 253px;
+    margin: 0;
+}
+
+.living-content p {
+    font-size: 11.4px;
+    /* border: 1px solid; */
+    max-width: 183px;
+    text-align: left;
+}
+
+
+/* footer */
+
+.collection-content h5 {
+    font-size: 1rem;
+    margin: 10px 0;
+    text-align: left;
+    color: #a19e9e;
+}
+
+.footer .container {
+    padding: 20px;
+    background: url('/html/assets/bg/images/Flower.png') 45% no-repeat;
+    background-size: cover;
+    align-items: center;
+    display: block;
+    max-width: 100%;
+}
+
+.wrap {
+    display: flex;
+    justify-content: space-around;
+    align-self: center;
+    flex-flow: wrap;
+}
+
+.collection h4 {
+    color: white;
+    font-size: 1rem;
+    text-transform: uppercase;
+}
+
+.collection-content {
+    padding: 0 3px;
+}
+
+.icon-facebook {
+    background: url('/html/assets/images/icon/sprite.png') no-repeat -11px -78px;
+    width: 10px;
+    height: 19px;
+}
+
+.icon-instagram {
+    background: url('/html/assets/images/icon/sprite.png') no-repeat -6px -264px;
+    width: 19px;
+    height: 19px;
+}
+
+.icon-twitter {
+    background: url('/html/assets/images/icon/sprite.png') no-repeat -8px -237px;
+    width: 21px;
+    height: 16px;
+}
+
+.icon-print {
+    background: url('/html/assets/images/icon/sprite.png') no-repeat -9px -184px;
+    width: 14px;
+    height: 18px;
+}
+
+.follow h4 {
+    text-align: center;
+    color: white;
+    padding: 10px 0;
+}
+
+.social-media a {
+    margin: 10px 21px;
+}
+
+
+/* end */
+
+.end {
+    text-align: center;
+    padding: 25px 0;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-flow: wrap;
+    justify-content: space-around;
+}
+
+.end h5 {
+    font-size: 1rem;
+    color: #a19e9e;
+    padding: 10px 0;
+}
+
+.bottle .slick-arrow {}
+
+.bottle .slick-prev .slick-arrow {}
+
+.bottle {
+    position: relative;
+}
+
+.dropdown-content {
+    display: none;
+}
+
+.nav-menu {
+    display: flex;
+    padding: 0 30px;
+    text-align: center;
+    flex-direction: column;
+    background-color: white;
+}
+
+.navigation {
+    position: absolute;
+    top: 18%;
+    left: 0.6%;
+    width: 99.3%;
+    z-index: 1;
+}
+
+.nav-menu a {
+    color: black;
+    font-size: 1.3rem;
+    font-family: gilroy light sans-serif;
+    position: relative;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.nav-menu li a::after {
+    position: absolute;
+    background: #0CB0DD;
+    content: "";
+    top: 15px;
+    left: 1px;
+    width: 100%;
+    height: 3px;
+    transform-origin: right;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.dropdown-content a::before {
+    position: absolute;
+    background: #0CB0DD;
+    content: "";
+    top: 15px;
+    left: 1px;
+    width: 100%;
+    height: 3px;
+    transform-origin: right;
+    border-radius: 5px;
+    transform: scaleX(0);
+    transition: transform .3s ease-in-out;
+}
+
+.nav-menu li a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
+
+/* tabs-1 */
+
+#tabs-1 h1 {
+    color: black;
+    font-family: gilroy light sans-serif;
+    font-weight: 100;
+    margin: 0;
+    text-align: left;
+    font-size: 4rem;
+    padding: 25px 4px;
+}
+
+#tabs-1 p {
+    text-align: left;
+}
+
+#tabs-1 p:nth-of-type(1) {
+    padding: 10px 0;
+}
+
+#tabs-1 p:nth-of-type(2) {
+    padding: 10px 0;
+}
+
+#tabs-1 p:nth-of-type(3) {
+    padding: 10px 0;
+}
+
+.pattern {
+    background: url('/html/assets/bg/images/pattern.png') no-repeat;
+}
+
+.pattern-image {
+    display: flex;
+    flex-flow: wrap;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.pattern-image li img {
+    width: 142px;
+    padding: 20px;
+}
+
+.about-para p {
+    font-family: gilroy light sans-serif;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+}
+
+.bottle {
+    width: 100%;
+    position: relative;
+    display: block;
+}
+
+.bottle .slick-prev {
+    position: absolute;
+    top: 21px;
+    height: 45px;
+    /* right: 440px; */
+    left: 33%;
+    width: 45px;
+    padding: 10px;
+    background-color: white;
+    /* font-size: 12px; */
+    box-shadow: 2px 2px 20px lightgrey;
+}
+
+.bottle .slick-next {
+    position: absolute;
+    top: 22px;
+    height: 45px;
+    left: 49%;
+    width: 45px;
+    padding: 10px;
+    background-color: white;
+    font-size: 12px;
+    box-shadow: 2px 2px 20px lightgrey;
+}
+
+.bottle .slick-prev:focus {
+    border: none;
+}
+
+.bottle .slick-next:focus {
+    border: none;
+}
+
+.bottle .slick-track {
+    height: 517px;
+}
+
+.header {
+    box-shadow: 2px 2px 30px lightgrey;
+}
+
+.bottle .draggable {
+    position: relative;
+}
+
+.bottle .slick-dots {
+    overflow: hidden;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 414px;
+    right: 115px;
+}
+
+.bottle .slick-dots li button {
+    background-color: grey;
+    width: 10px !important;
+    height: 10px !important;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.bottle .slick-dots .slick-active button {
+    width: 12px !important;
+    height: 12px !important;
+    background-color: orange;
+}
+
+.bottle .slick-dots li button {
+    text-indent: 450px;
+}
+
+.bottle .slick-dots .slick-active button:focus {
+    border: none;
+}
+
+.autoplay {
+    display: none;
+}
+
+.accordion {
+    position: relative;
+}
+
+.icon-arrow {
+    background: url('/html/assets/images/icon/sprite.png') no-repeat -10px -155px;
+    width: 11px;
+    height: 5px;
+    position: absolute;
+    left: 92%;
+}
+
+
+/* tabs-3 */
